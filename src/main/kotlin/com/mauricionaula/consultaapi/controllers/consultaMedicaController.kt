@@ -27,6 +27,8 @@ class consultaMedicaController {
         return consultaMedicaService.update(consultaMedicaTabla)
     }
 
+
+
     @DeleteMapping("/delete/{id}")
     fun delete (@PathVariable("id") id: Long):Boolean{
         return consultaMedicaService.delete(id)

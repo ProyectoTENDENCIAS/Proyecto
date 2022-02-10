@@ -1,4 +1,4 @@
-package com.mauricionaula.consultaapi
+package com.mauricionaula.consultaapi.ConsultaapiApplication
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
